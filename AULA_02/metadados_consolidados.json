@@ -6,14 +6,44 @@
       "Jefferson Ribeiro da Silva",
       "Bruno Daniel Vendruscolo Espinosa Velásquez"
     ],
-    "ano": 2024
+    "ano": 2025,
+    "resumo": "Este artigo investiga a dinâmica das redes sociais na formação do debate público, com ênfase no Twitter (atualmente denominado X) e na influência dos algoritmos na regulação do conteúdo. Por meio de uma abordagem interdisciplinar que integra os conceitos da Sociologia Digital e das Ciências da Computação, o estudo analisa como os mecanismos de curadoria e moderação – operados por empresas privadas – afetam a construção dos discursos e a propagação das informações.",
+    "palavras_chave": [
+      "redes sociais",
+      "espaço público",
+      "algoritmos",
+      "Twitter/X",
+      "desinformação"
+    ],
+    "area_conhecimento": "Sociologia Digital e Ciências da Computação",
+    "metodologia": "Abordagem interdisciplinar, articulando conceitos da Sociologia Digital e das Ciências da Computação para analisar os mecanismos algorítmicos de curadoria e moderação do conteúdo no Twitter/X.",
+    "principais_conclusoes": [
+      "Os algoritmos exercem influência significativa na regulação dos conteúdos e na formação do debate público.",
+      "Os mecanismos de curadoria e moderação, por serem operados por empresas privadas, afetam a construção dos discursos e a propagação das informações.",
+      "A dinâmica do Twitter/X evidencia a relação entre redes sociais, espaço público e disseminação de desinformação."
+    ]
   },
   {
     "titulo": "Oficina de Escrita Acadêmica: Escrita acadêmica ética, responsável e humana com inteligência artificial",
     "autores": [
       "Rafael Cardoso Sampaio"
     ],
-    "ano": 2024
+    "ano": 2025,
+    "resumo": "A rápida disseminação da inteligência artificial generativa (IAG) transformou práticas de escrita acadêmica, ampliando a eficiência, mas levantando preocupações sobre autoria, integridade, privacidade e desenvolvimento cognitivo. Este artigo busca preencher essa lacuna ao propor um método estruturado de uso ético, responsável e humano da IA.",
+    "palavras_chave": [
+      "escrita acadêmica",
+      "integridade científica",
+      "Inteligência Artificial Generativa",
+      "autoria",
+      "revisão narrativa"
+    ],
+    "area_conhecimento": "Ciências Humanas, com enfoque em Sociologia e escrita acadêmica",
+    "metodologia": "Revisão narrativa com proposição de um método estruturado para o uso ético, responsável e humano da inteligência artificial generativa na escrita acadêmica.",
+    "principais_conclusoes": [
+      "A inteligência artificial generativa pode ampliar a eficiência das práticas de escrita acadêmica.",
+      "Seu uso exige atenção às questões de autoria, integridade científica, privacidade e desenvolvimento cognitivo.",
+      "É necessário adotar um método estruturado que oriente o uso ético, responsável e humano da inteligência artificial na escrita acadêmica."
+    ]
   },
   {
     "titulo": "Entre o algoritmo e o Juramento de Hipócrates: bioética na era da inteligência artificial",
@@ -22,6 +52,16 @@
       "Guilhermina Rego",
       "Rui Nunes"
     ],
-    "ano": 2026
+    "ano": 2026,
+    "resumo": "O avanço da inteligência artificial tem transformado profundamente a prática médica. De sistemas de apoio à decisão clínica a algoritmos de triagem e diagnóstico, a inteligência artificial tem demonstrado potencial para diagnósticos precoces, terapias personalizadas, otimização de recursos, redução de erros e ampliação do acesso a cuidados especializados.",
+    "palavras_chave": [
+      "Bioética",
+      "Inteligência artificial",
+      "Ética médica",
+      "Autonomia pessoal"
+    ],
+    "area_conhecimento": "Bioética e ética médica aplicada à inteligência artificial na saúde",
+    "metodologia": "",
+    "principais_conclusoes": []
   }
 ]
