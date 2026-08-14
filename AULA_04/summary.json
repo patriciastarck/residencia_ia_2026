@@ -1,0 +1,667 @@
+[
+  {
+    "document": "gpt3_language_models.md",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "fixed",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 1318,
+        "avg_chunk_size": 199.5,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 2,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 527,
+        "avg_chunk_size": 499.5,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 3,
+        "strategy": "fixed",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 264,
+        "avg_chunk_size": 997.5,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 4,
+        "strategy": "fixed",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 132,
+        "avg_chunk_size": 1995.2,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 586,
+        "avg_chunk_size": 499.1,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 879,
+        "avg_chunk_size": 498.9,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 7,
+        "strategy": "paragraph",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 768,
+        "avg_chunk_size": 339.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 8,
+        "strategy": "sentence_group_3",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 789,
+        "avg_chunk_size": 331.7,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 9,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 1040,
+        "avg_chunk_size": 305.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 10,
+        "strategy": "markdown_heading",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 64,
+        "avg_chunk_size": 4112.8,
+        "embedding_dimension": 1536
+      }
+    ]
+  },
+  {
+    "document": "gpt4_technical_report.md",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "fixed",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 1476,
+        "avg_chunk_size": 199.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 2,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 591,
+        "avg_chunk_size": 499.1,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 3,
+        "strategy": "fixed",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 296,
+        "avg_chunk_size": 996.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 4,
+        "strategy": "fixed",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 148,
+        "avg_chunk_size": 1993.9,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 656,
+        "avg_chunk_size": 499.5,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 984,
+        "avg_chunk_size": 499.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 7,
+        "strategy": "paragraph",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 1274,
+        "avg_chunk_size": 228.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 8,
+        "strategy": "sentence_group_3",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 961,
+        "avg_chunk_size": 304.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 9,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 1133,
+        "avg_chunk_size": 305.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 10,
+        "strategy": "markdown_heading",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 189,
+        "avg_chunk_size": 1558.6,
+        "embedding_dimension": 1536
+      }
+    ]
+  },
+  {
+    "document": "instruct_gpt.md",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "fixed",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 962,
+        "avg_chunk_size": 199.5,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 2,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 385,
+        "avg_chunk_size": 499.0,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 3,
+        "strategy": "fixed",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 193,
+        "avg_chunk_size": 995.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 4,
+        "strategy": "fixed",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 97,
+        "avg_chunk_size": 1981.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 428,
+        "avg_chunk_size": 498.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 641,
+        "avg_chunk_size": 499.3,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 7,
+        "strategy": "paragraph",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 767,
+        "avg_chunk_size": 247.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 8,
+        "strategy": "sentence_group_3",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 489,
+        "avg_chunk_size": 390.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 9,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 740,
+        "avg_chunk_size": 307.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 10,
+        "strategy": "markdown_heading",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 105,
+        "avg_chunk_size": 1828.1,
+        "embedding_dimension": 1536
+      }
+    ]
+  },
+  {
+    "document": "llama_foundation_models.md",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "fixed",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 461,
+        "avg_chunk_size": 199.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 2,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 185,
+        "avg_chunk_size": 497.5,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 3,
+        "strategy": "fixed",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 93,
+        "avg_chunk_size": 990.1,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 4,
+        "strategy": "fixed",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 47,
+        "avg_chunk_size": 1959.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 205,
+        "avg_chunk_size": 498.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 308,
+        "avg_chunk_size": 497.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 7,
+        "strategy": "paragraph",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 358,
+        "avg_chunk_size": 254.2,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 8,
+        "strategy": "sentence_group_3",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 287,
+        "avg_chunk_size": 318.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 9,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 336,
+        "avg_chunk_size": 312.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 10,
+        "strategy": "markdown_heading",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 51,
+        "avg_chunk_size": 1803.2,
+        "embedding_dimension": 1536
+      }
+    ]
+  },
+  {
+    "document": "lora_low_rank_adaptation.md",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "fixed",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 452,
+        "avg_chunk_size": 199.3,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 2,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 181,
+        "avg_chunk_size": 498.3,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 3,
+        "strategy": "fixed",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 91,
+        "avg_chunk_size": 991.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 4,
+        "strategy": "fixed",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 46,
+        "avg_chunk_size": 1961.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 201,
+        "avg_chunk_size": 498.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 301,
+        "avg_chunk_size": 498.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 7,
+        "strategy": "paragraph",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 297,
+        "avg_chunk_size": 300.7,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 8,
+        "strategy": "sentence_group_3",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 251,
+        "avg_chunk_size": 357.0,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 9,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 356,
+        "avg_chunk_size": 304.7,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 10,
+        "strategy": "markdown_heading",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 40,
+        "avg_chunk_size": 2253.0,
+        "embedding_dimension": 1536
+      }
+    ]
+  },
+  {
+    "document": "retrieval_augmented_generation.md",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "fixed",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 365,
+        "avg_chunk_size": 199.2,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 2,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 146,
+        "avg_chunk_size": 498.5,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 3,
+        "strategy": "fixed",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 73,
+        "avg_chunk_size": 997.3,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 4,
+        "strategy": "fixed",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 37,
+        "avg_chunk_size": 1968.2,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 162,
+        "avg_chunk_size": 499.0,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 243,
+        "avg_chunk_size": 498.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 7,
+        "strategy": "paragraph",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 211,
+        "avg_chunk_size": 342.1,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 8,
+        "strategy": "sentence_group_3",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 229,
+        "avg_chunk_size": 315.9,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 9,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 305,
+        "avg_chunk_size": 288.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 10,
+        "strategy": "markdown_heading",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 35,
+        "avg_chunk_size": 2078.0,
+        "embedding_dimension": 1536
+      }
+    ]
+  },
+  {
+    "document": "scaling_laws_llm.md",
+    "experiments": [
+      {
+        "test_id": 1,
+        "strategy": "fixed",
+        "chunk_size": 200,
+        "chunk_overlap": 0,
+        "num_chunks": 478,
+        "avg_chunk_size": 199.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 2,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 192,
+        "avg_chunk_size": 497.1,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 3,
+        "strategy": "fixed",
+        "chunk_size": 1000,
+        "chunk_overlap": 0,
+        "num_chunks": 96,
+        "avg_chunk_size": 994.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 4,
+        "strategy": "fixed",
+        "chunk_size": 2000,
+        "chunk_overlap": 0,
+        "num_chunks": 48,
+        "avg_chunk_size": 1989.6,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 5,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "num_chunks": 213,
+        "avg_chunk_size": 497.8,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 6,
+        "strategy": "fixed",
+        "chunk_size": 500,
+        "chunk_overlap": 200,
+        "num_chunks": 319,
+        "avg_chunk_size": 498.1,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 7,
+        "strategy": "paragraph",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 398,
+        "avg_chunk_size": 236.7,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 8,
+        "strategy": "sentence_group_3",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 475,
+        "avg_chunk_size": 199.4,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 9,
+        "strategy": "recursive",
+        "chunk_size": 500,
+        "chunk_overlap": 0,
+        "num_chunks": 356,
+        "avg_chunk_size": 308.9,
+        "embedding_dimension": 1536
+      },
+      {
+        "test_id": 10,
+        "strategy": "markdown_heading",
+        "chunk_size": null,
+        "chunk_overlap": 0,
+        "num_chunks": 51,
+        "avg_chunk_size": 1869.8,
+        "embedding_dimension": 1536
+      }
+    ]
+  }
+]

@@ -5,6 +5,7 @@ from typing import List, Optional
 from pydantic import BaseModel, Field
 from openai import OpenAI
 from dotenv import load_dotenv
+from docling.document_converter import DocumentConverter
 
 # Garante a busca do arquivo .env na raiz do projeto
 diretorio_aula = Path(__file__).parent
@@ -87,7 +88,8 @@ if __name__ == "__main__":
     arquivos_md = [
         "artigo_twitter.md",
         "escrita_academica.md",
-        "bioetica_ia.md"
+        "bioetica_ia.md",
+        "instruct_gpt.pdf"
     ]
     resultados = []
 
